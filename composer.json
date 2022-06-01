@@ -11,7 +11,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.4",
+        "php": "^8.0",
         "ext-json": "*",
         "doctrine/collections": "^1.6",
         "knplabs/knp-menu": "^3.1",
@@ -33,6 +33,7 @@
         "webmozart/assert": "^1.9"
     },
     "require-dev": {
+        "lakion/mink-debug-extension": "^2.0",
         "loevgaard/sylius-brand-plugin": "^2.1",
         "matthiasnoback/symfony-config-test": "^4.2",
         "matthiasnoback/symfony-dependency-injection-test": "^4.2",
@@ -41,7 +42,7 @@
         "psalm/plugin-symfony": "^2.2",
         "roave/security-advisories": "dev-master",
         "setono/code-quality-pack": "^2.1.2",
-        "setono/sylius-behat-pack": "^0.1",
+        "setono/sylius-behat-pack": "^0.2",
         "setono/sylius-tag-bag-plugin": "^1.1",
         "sylius/sylius": "~1.10.0",
         "symfony/debug-bundle": "^4.4 || ^5.0",
